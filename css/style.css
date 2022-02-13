@@ -138,8 +138,8 @@ body.lock {
 }
 
 .header {
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(51, 51, 51, 0.85)), to(rgba(51, 51, 51, 0.85))), url(png/background.png) center/cover no-repeat;
-  background: linear-gradient(0deg, rgba(51, 51, 51, 0.85), rgba(51, 51, 51, 0.85)), url(png/background.png) center/cover no-repeat;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(51, 51, 51, 0.85)), to(rgba(51, 51, 51, 0.85))), url(../png/background.png) center/cover no-repeat;
+  background: linear-gradient(0deg, rgba(51, 51, 51, 0.85), rgba(51, 51, 51, 0.85)), url(../png/background.png) center/cover no-repeat;
 }
 
 .default {
@@ -637,8 +637,8 @@ body.lock {
           transform: translate(18px, 20px);
   width: 350px;
   height: 490px;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(209, 169, 84, 0.85))), url(png/event.png) 0 0 no-repeat;
-  background: linear-gradient(0deg, rgba(209, 169, 84, 0.85)), url(png/event.png) 0 0 no-repeat;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(209, 169, 84, 0.85))), url(../png/event.png) 0 0 no-repeat;
+  background: linear-gradient(0deg, rgba(209, 169, 84, 0.85)), url(../png/event.png) 0 0 no-repeat;
 }
 
 .slider1 {
@@ -688,7 +688,7 @@ body.lock {
 }
 
 .slider1 .slick-arrow.slick-prev::before {
-  content: url(svg/arrowprev.svg);
+  content: url(../svg/arrowprev.svg);
   margin: 0 25px 0 0;
 }
 
@@ -702,7 +702,7 @@ body.lock {
 }
 
 .slider1 .slick-arrow.slick-next::after {
-  content: url(svg/arrownext.svg);
+  content: url(../svg/arrownext.svg);
   margin: 0 0 0 25px;
 }
 
@@ -972,7 +972,7 @@ body.lock {
 }
 
 .events__item:hover::after {
-  content: url(svg/search.svg);
+  content: url(../svg/search.svg);
   position: absolute;
   padding: 35px;
   width: 100px;
@@ -1017,45 +1017,45 @@ body.lock {
 .item1 {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(51, 51, 51, 0.65)), to(rgba(51, 51, 51, 0.65))), url(png/item1.png) 0 0 no-repeat;
-  background: linear-gradient(0deg, rgba(51, 51, 51, 0.65), rgba(51, 51, 51, 0.65)), url(png/item1.png) 0 0 no-repeat;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(51, 51, 51, 0.65)), to(rgba(51, 51, 51, 0.65))), url(../png/item1.png) 0 0 no-repeat;
+  background: linear-gradient(0deg, rgba(51, 51, 51, 0.65), rgba(51, 51, 51, 0.65)), url(../png/item1.png) 0 0 no-repeat;
 }
 
 .item1:hover {
-  background: url(png/item1.png) 0 0 no-repeat;
+  background: url(../png/item1.png) 0 0 no-repeat;
 }
 
 .item2 {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(51, 51, 51, 0.65)), to(rgba(51, 51, 51, 0.65))), url(png/item2.png) 0 0 no-repeat;
-  background: linear-gradient(0deg, rgba(51, 51, 51, 0.65), rgba(51, 51, 51, 0.65)), url(png/item2.png) 0 0 no-repeat;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(51, 51, 51, 0.65)), to(rgba(51, 51, 51, 0.65))), url(../png/item2.png) 0 0 no-repeat;
+  background: linear-gradient(0deg, rgba(51, 51, 51, 0.65), rgba(51, 51, 51, 0.65)), url(../png/item2.png) 0 0 no-repeat;
 }
 
 .item2:hover {
-  background: url(png/item2.png) 0 0 no-repeat;
+  background: url(../png/item2.png) 0 0 no-repeat;
 }
 
 .item3 {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(51, 51, 51, 0.65)), to(rgba(51, 51, 51, 0.65))), url(png/item3.png) 0 0 no-repeat;
-  background: linear-gradient(0deg, rgba(51, 51, 51, 0.65), rgba(51, 51, 51, 0.65)), url(png/item3.png) 0 0 no-repeat;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(51, 51, 51, 0.65)), to(rgba(51, 51, 51, 0.65))), url(../png/item3.png) 0 0 no-repeat;
+  background: linear-gradient(0deg, rgba(51, 51, 51, 0.65), rgba(51, 51, 51, 0.65)), url(../png/item3.png) 0 0 no-repeat;
 }
 
 .item3:hover {
-  background: url(png/item3.png) 0 0 no-repeat;
+  background: url(../png/item3.png) 0 0 no-repeat;
 }
 
 .item4 {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(51, 51, 51, 0.65)), to(rgba(51, 51, 51, 0.65))), url(png/item4.png) 0 0 no-repeat;
-  background: linear-gradient(0deg, rgba(51, 51, 51, 0.65), rgba(51, 51, 51, 0.65)), url(png/item4.png) 0 0 no-repeat;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(51, 51, 51, 0.65)), to(rgba(51, 51, 51, 0.65))), url(../png/item4.png) 0 0 no-repeat;
+  background: linear-gradient(0deg, rgba(51, 51, 51, 0.65), rgba(51, 51, 51, 0.65)), url(../png/item4.png) 0 0 no-repeat;
 }
 
 .item4:hover {
-  background: url(png/item4.png) 0 0 no-repeat;
+  background: url(../png/item4.png) 0 0 no-repeat;
 }
 
 .stars {
@@ -1075,8 +1075,8 @@ body.lock {
 }
 
 .stars__container {
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(51, 51, 51, 0.9)), to(rgba(51, 51, 51, 0.9))), url(png/star.png) center/cover no-repeat;
-  background: linear-gradient(0deg, rgba(51, 51, 51, 0.9), rgba(51, 51, 51, 0.9)), url(png/star.png) center/cover no-repeat;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(51, 51, 51, 0.9)), to(rgba(51, 51, 51, 0.9))), url(../png/star.png) center/cover no-repeat;
+  background: linear-gradient(0deg, rgba(51, 51, 51, 0.9), rgba(51, 51, 51, 0.9)), url(../png/star.png) center/cover no-repeat;
   padding: 126px 15px;
   display: -webkit-box;
   display: -ms-flexbox;
